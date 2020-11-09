@@ -8795,10 +8795,10 @@ WHERE (ipv.IsDefault = 1 and c.UserID = '" . $user_id . "') and c.TokenSession =
             }
 
             if ($limit == null) {
-                $condition .= "Order by pvd.Stock and pvd.Stock DESC OFFSET " . $p . " ";
+                $condition .= "Order by tp.ProductID DESC OFFSET " . $p . " ";
             }else{
 
-                $condition .= "Order by pvd.Stock and pvd.Stock DESC LIMIT " . $limit . " OFFSET " . $p . " ";
+                $condition .= "Order by tp.ProductID DESC LIMIT " . $limit . " OFFSET " . $p . " ";
             }
      
 
@@ -8867,7 +8867,7 @@ WHERE (ipv.IsDefault = 1 and c.UserID = '" . $user_id . "') and c.TokenSession =
 	                                LEFT JOIN image_products AS ip
 	                                ON tp.ProductID = ip.ProductID
                                     where (tp.UserID =" . $user_id . "	and tp.Status =" . $status . ") and (ip.isDefault = 1)
-                                    Order by tp.ProductID ASC  ");
+                                    " . $condition);
 
         }
 

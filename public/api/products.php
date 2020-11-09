@@ -248,23 +248,16 @@ foreach ($rows as $obj) {
 				
     	
 				
-				if ($content == "get_products") {
+if ($content == "get_products") {
 					$modeHeader = 0;
-                    $post = json_decode(file_get_contents("php://input"), true);
-//                    $user_id = $userid_header;
-
-                   $user_id = 5;
-				
-					$page = 1;
-					
-					$search = null;
-					
-                    $limit = null;
-					
-					$status =1;
-
-					$search_size = null;
-                    $search_color = null;
+          $post = json_decode(file_get_contents("php://input"), true);
+          $user_id = 5;
+          $page = 1;
+          $search = null;
+          $limit = null;
+          $status =1;
+          $search_size = null;
+          $search_color = null;
 					
 					$productArr = [];
 					$skusArr = [];
@@ -276,9 +269,9 @@ foreach ($rows as $obj) {
             $product_id = $post['product_id'];
           }
 
-                    if (isset($post['Limit'])) {
-                        $limit = $post['Limit'];
-                   }
+          if (isset($post['Limit'])) {
+              $limit = $post['Limit'];
+          }
 					
 					 if (isset($post['Search'])) {
                         $search = $post['Search'];
