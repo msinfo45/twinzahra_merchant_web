@@ -344,12 +344,15 @@ foreach($rows as $products)
 		
 	//echo json_encode($rowProductItems);die;
 		$productArr[$products['ProductID']]['ProductID'] = $products['ProductID'];
-        $productArr[$products['ProductID']]['UserID'] = $products['UserID'];
+		$productArr[$products['ProductID']]['UserID'] = $products['UserID'];
 		$productArr[$products['ProductID']]['SupplierID'] = $products['SupplierID'];
 		$productArr[$products['ProductID']]['ProductName'] = $products['ProductName'];
+      //	$productArr[$products['ProductID']]['Price'] = $products['Price'];
+		//$productArr[$products['ProductID']]['Stock'] = $products['Stock'];
 		$productArr[$products['ProductID']]['CategoryID'] = $products['CategoryID'];
 		$productArr[$products['ProductID']]['BrandID'] = $products['BrandID'];
 		$productArr[$products['ProductID']]['Description'] = $products['Description'];
+		$productArr[$products['ProductID']]['Images'] = $products['ImageProductName'];
 		$productArr[$products['ProductID']]['skus'][]= $skusArr;				
        
 			}  
