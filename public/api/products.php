@@ -312,56 +312,72 @@ foreach($rows as $products)
 		
 		while ($rowProductItem = $getDataProductItems->fetch_assoc()) {										
 						
-        $rowProductItems= $rowProductItem;	
+		  $rowProductItems[]= $rowProductItem;
+		  $ProductVariantID = $rowProductItem['ProductVariantID'];
+      $ProductVariantName = $rowProductItem['ProductVariantName'];
+      $ProductVariantDetailName = $rowProductItem['ProductVariantDetailName'];
+      $PriceRetail = $rowProductItem['PriceRetail'];
+      $Stock = $rowProductItem['Stock'];
+      $SkuID = $rowProductItem['SkuID'];
+      $Barcode = $rowProductItem['Barcode'];
+      $isDefault = $rowProductItem['isDefault'];
+      $pricesMinMax = array_column($rowProductItems, 'PriceRetail');
 
-		$getDataImageProductVariants = $db->getImageProductVariants($rowProductItems['ProductVariantID']);
+      $minPrice= min($pricesMinMax);
+      $maxPrice= max($pricesMinMax);
+
+
+     //echo json_encode($maxPrice);die;
+
+      $getDataImageProductVariants = $db->getImageProductVariants($ProductVariantID);
 	
 		while ($rowImageProductVariants = $getDataImageProductVariants->fetch_assoc()) {		
 	
 	$rowImageProductVariant = $rowImageProductVariants['ImageProductVariantName'];
 	
-	$skusArr = array ("ProductVariantID" => $rowProductItem['ProductVariantID'],
-							"ProductVariantName" => $rowProductItem['ProductVariantName'],
-							"ProductVariantDetailName" => $rowProductItem['ProductVariantDetailName'],
-							"Price" => $rowProductItem['Price'],
-							"PriceRetail" => $rowProductItem['PriceRetail'],
-							"PriceReseller" => $rowProductItem['PriceReseller'],
-							"Stock" => $rowProductItem['Stock'],
-							"SkuID" => $rowProductItem['SkuID'],
-							"Barcode" => $rowProductItem['Barcode'],
-							"ProductVariantID" => $rowProductItem['ProductVariantID'],
+	$skusArr = array ("ProductVariantID" => $ProductVariantID,
+							"ProductVariantName" => $ProductVariantName,
+							"ProductVariantDetailName" => $ProductVariantDetailName,
+							"PriceRetail" => $PriceRetail,
+							"Stock" => $Stock,
+							"SkuID" => $SkuID,
+							"Barcode" => $Barcode,
+							"ProductVariantID" => $ProductVariantID,
+               "isDefault" => $isDefault,
 							"Images" => array($rowImageProductVariant)
 			
 			);
 		}
-		
-		
-	
-	
-	 	
-		
-		//$resultSkus = array_values($skusArr);	
+
+
+      //$resultSkus[] = array_values($skusArr);
+
+
+
+
+
 		
 	//echo json_encode($rowProductItems);die;
 		$productArr[$products['ProductID']]['ProductID'] = $products['ProductID'];
 		$productArr[$products['ProductID']]['UserID'] = $products['UserID'];
 		$productArr[$products['ProductID']]['SupplierID'] = $products['SupplierID'];
 		$productArr[$products['ProductID']]['ProductName'] = $products['ProductName'];
-      //	$productArr[$products['ProductID']]['Price'] = $products['Price'];
-		//$productArr[$products['ProductID']]['Stock'] = $products['Stock'];
+		//$productArr[$products['ProductID']]['PriceMin'] = $minPrice ;
+    //$productArr[$products['ProductID']]['PriceMax'] = $maxPrice;
+		//$productArr[$products['ProductID']]['Stock'] = $skusArr->Stock);
 		$productArr[$products['ProductID']]['CategoryID'] = $products['CategoryID'];
 		$productArr[$products['ProductID']]['BrandID'] = $products['BrandID'];
 		$productArr[$products['ProductID']]['Description'] = $products['Description'];
 		$productArr[$products['ProductID']]['Images'] = $products['ImageProductName'];
-		$productArr[$products['ProductID']]['skus'][]= $skusArr;				
+		$productArr[$products['ProductID']]['skus'][]= $skusArr;
        
-			}  
-	
+			}
+
+
 			
-			
-		}				
-							
-							
+		}
+
+
 		$result = array_values($productArr);					
 							
 							
