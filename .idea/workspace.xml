@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f518f7c-0bf0-491b-832b-e6e319714f3a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/public/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\xampp\htdocs\twinzahra_merchant\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/public/vendor/composer" />
+      <path value="$PROJECT_DIR$/public/vendor/bootstrap/css" />
+      <path value="$PROJECT_DIR$/public/vendor/bootstrap/js" />
+      <path value="$PROJECT_DIR$/public/vendor/fontawesome-free/css" />
+      <path value="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jE74jVzrbzV8A4DHOgs2X7ZlVX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f518f7c-0bf0-491b-832b-e6e319714f3a" name="Default Changelist" comment="" />
+      <created>1603357216171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603357216171</updated>
+      <workItem from="1603357266023" duration="1168000" />
+      <workItem from="1603361064277" duration="1426000" />
+      <workItem from="1603426733002" duration="411000" />
+      <workItem from="1603427455958" duration="241000" />
+      <workItem from="1603437078507" duration="292000" />
+      <workItem from="1603708833681" duration="3559000" />
+      <workItem from="1603813857354" duration="380000" />
+      <workItem from="1603910024311" duration="165000" />
+      <workItem from="1604060305698" duration="795000" />
+      <workItem from="1604071776873" duration="241000" />
+      <workItem from="1604106587653" duration="111000" />
+      <workItem from="1604191189242" duration="235000" />
+      <workItem from="1604215547432" duration="192000" />
+      <workItem from="1604452064548" duration="2933000" />
+      <workItem from="1604650164461" duration="6674000" />
+      <workItem from="1604714793636" duration="2580000" />
+      <workItem from="1604892987020" duration="3179000" />
+      <workItem from="1604897123818" duration="2628000" />
+      <workItem from="1604899805219" duration="406000" />
+      <workItem from="1604900370316" duration="1298000" />
+    </task>
+    <task id="LOCAL-00001" summary="Migration to framework codeigniter 4">
+      <created>1603359971136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603359971136</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Migration to framework codeigniter 4 (2)">
+      <created>1603362330716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603362330716</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Penambahan fungsi pencarian by size di produk">
+      <created>1603426918092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603426918092</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Penambahan fungsi pencarian by size di produk">
+      <created>1603427519773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603427519773</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Penambahan fungsi pencarian by size di produk">
+      <created>1603427616713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603427616713</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Perbaikan sync Marketplace">
+      <created>1603437312536</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603437312536</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Login Session">
+      <created>1603814063871</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603814063871</updated>
+    </task>
+    <task id="LOCAL-00008" summary="perbaikan halaman kasir">
+      <created>1603910172277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603910172277</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Perbaikan halaman order pending">
+      <created>1604066390094</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604066390094</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Commit directory">
+      <created>1604072012151</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604072012151</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Perbaikan Accept Order otomatis">
+      <created>1604106651719</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604106651719</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Penambahan History Orders ready to ship , dalam pengiriman dll">
+      <created>1604191377643</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604191377643</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Perbaikan Accept Orders">
+      <created>1604215714261</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604215714261</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Perbaikan sync marketplace , accept orders &amp; penambahan fitur promo">
+      <created>1604455011324</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604455011339</updated>
+    </task>
+    <task id="LOCAL-00015" summary="11062020">
+      <created>1604650233984</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604650233984</updated>
+    </task>
+    <task id="LOCAL-00016" summary="perbaikan load_products.php">
+      <created>1604723628692</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604723628692</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Commit Directory">
+      <created>1604903282167</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604903282167</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Migration to framework codeigniter 4" />
+    <MESSAGE value="Migration to framework codeigniter 4 (2)" />
+    <MESSAGE value="Penambahan fungsi pencarian by size di produk" />
+    <MESSAGE value="Perbaikan sync Marketplace" />
+    <MESSAGE value="Login Session" />
+    <MESSAGE value="perbaikan halaman kasir" />
+    <MESSAGE value="Perbaikan halaman order pending" />
+    <MESSAGE value="Commit directory" />
+    <MESSAGE value="Perbaikan Accept Order otomatis" />
+    <MESSAGE value="Penambahan History Orders ready to ship , dalam pengiriman dll" />
+    <MESSAGE value="Perbaikan Accept Orders" />
+    <MESSAGE value="Perbaikan sync marketplace , accept orders &amp; penambahan fitur promo" />
+    <MESSAGE value="11062020" />
+    <MESSAGE value="perbaikan load_products.php" />
+    <MESSAGE value="Commit Directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Directory" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="70" y="0" width="1201" height="801" key="CommitChangelistDialog2" timestamp="1604903270138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604454993830" />
+    <state x="70" y="0" width="1201" height="801" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604903270138" />
+    <state x="116" y="61" key="DiffContextDialog" timestamp="1604452130978">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="116" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604452130978" />
+    <state x="740" y="265" key="FileChooserDialogImpl" timestamp="1604899735951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604899735951" />
+    <state x="791" y="376" width="261" height="201" key="Github.ShareDialog" timestamp="1604900115742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="563" y="263" width="261" height="201" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1603361256408" />
+    <state x="791" y="376" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604900115742" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1604899450993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604899450993" />
+    <state x="387" y="144" key="Vcs.Push.Dialog.v2" timestamp="1604900186163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604455016733" />
+    <state x="387" y="144" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604900186163" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1604650166007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604650166007" />
+    <state x="497" y="138" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604900394601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="497" y="138" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604900394601" />
+  </component>
+</project>
