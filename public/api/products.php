@@ -904,6 +904,7 @@ if ($content == "get_product_items") {
               "SkuID" => $rowProductItem['SkuID'],
               "Barcode" => $rowProductItem['Barcode'],
               "ProductVariantID" => $rowProductItem['ProductVariantID'],
+              "isDefault" => $rowProductItem['isDefault'],
               "Images" => array($rowImageProductVariant)
 
             );
